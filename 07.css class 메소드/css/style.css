@@ -1,0 +1,40 @@
+.ex1 button {
+  color: blue !important;
+}
+
+.ex3 .box.tt {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+
+.ex4 div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.ex5 span {
+  display: inline-block;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.ex5 button{
+  display: block;
+}
+
+.ex5 {
+  text-align: left;
+}
+
+.ex5.t1 {
+  text-align: right;
+}
