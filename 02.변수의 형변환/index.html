@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // var a = 5
+    // var b = 1
+    // var c = a + b
+    // alert(a + '+' + b + '=' + c)/* ex) 5+1=6 */
+    // alert(a + '더하기' + b + '은' + (a + b))/* ex) 5 더하기 1은 6 */
+    // alert(a+'더하기 '+b+'은 '+c+'입니다.')
+    // alert('a가 '+a+'이고 b가 '+b+'이면 합은 '+c+'입니다.')// a가5이고 b 1이면 합은 6입니다.
+
+    /*
+    a = '1.2345'
+    parseInt(a) -> 1
+
+    a = '5입니다'
+    parseInt(a) -> 5
+    
+    a = '숫자5'
+    parseInt(a) -> NaN
+    
+    a = '5'
+    b = '1'
+    parseInt('a+b') -> 51
+
+    parseInt('5') -> 5
+    
+    */
+    /*
+    var a = parseInt(prompt('첫번째 숫자를 입력하세요'))
+    var b = parseInt(prompt('두번째 숫자를 입력하세요'))
+    var c = a + b
+    alert(c)
+  
+    var a = prompt('첫번째 숫자를 입력하세요')
+    var b = prompt('두번째 숫자를 입력하세요')
+    var c = parseInt(a) + parseInt(b)
+    alert(c) 
+    */
+
+    /*
+    var a = parseFloat(prompt('첫번째 정수나 소수를 입력하세요'))
+    var b = parseFloat(prompt('두번째 정수나 소수를 입력하세요'))
+    var c = a + b
+    alert(c)
+
+    var a = prompt('첫번째 정수나 소수를 입력하세요')
+    var b = prompt('두번째 정수나 소수를 입력하세요')
+    var c = parseFloat(a) + parseFloat(b)
+    alert(c) 
+    */
+
+    // 나머지 구하기 예제
+    /* 
+    var a = prompt('나누어질수(정수)를 입력하세요.')//14
+    var b = prompt('나눌수(정수)를 입력하세요.')//5 
+    var c = a % b
+    alert(c) 
+    */
+    /* 
+    var a = parseInt(prompt('나누어질수(정수)를 입력하세요.'))//14
+    var b = parseInt(prompt('나눌수(정수)를 입력하세요.'))//5 
+    var c = parseInt(a / b)
+    var d = a - (b * c)
+    alert(d)  
+    */
+
+    /* 
+    var a = prompt('가지고 있는 금액을 입력하세요.') //1000
+    var b = prompt('물건 가격을 입력하세요') // 300
+    //구입가능갯수 : 3, 잔돈 :100
+    var c = parseInt(a / b)
+    var d = a % b
+    alert('구입가능갯수: '+c+'개, 잔돈 : '+d+'원')
+    */
+   /* 
+   // 평균 구하기
+   var kor = parseFloat(prompt('국어점수를 입력하세요.'))
+   var eng = parseFloat(prompt('영어점수를 입력하세요.'))
+   var mat = parseFloat(prompt('수학점수를 입력하세요.'))
+   var tot = kor + eng + mat
+   var avg = tot / 3
+    // avg = avg * 10
+    // avg = parseInt(avg) / 10
+   alert('총점은 '+tot+'점, 평균은 '+avg.toFixed(1)+'점') 
+
+   // a = 1.2345
+   // a.toFixed(1) // 1.2
+   */
+    /* 
+   // 1. 컨테이너 넓이를 입력, 그리드 개수 입력, 그리드 넓이 입력, 여백의 넓이를 구하라
+
+    var con_area = parseInt(prompt('컨테이너 넓이를 입력하세요.')) //1000
+    var grid_num = parseInt(prompt('그리드의 개수를 입력하세요.')) //3
+    var grid_area = parseInt(prompt('그리드의 넓이를 입력하세요.')) //300
+    var void_num = grid_num - 1 // 3 - 1
+    var void_area = (con_area % grid_area) / void_num //(1000%300) / 2
+    alert('한 여백의 넓이는 '+void_area+'입니다.') 
+
+
+   // 2. 컨테이너 넓이를 입력, 여백의 개수 입력, 여백한칸의 넓이 입력, 그리드 넓이를 구하라
+    var con_area = parseInt(prompt('컨테이너 넓이를 입력하세요.')) //1000
+    var void_num = parseInt(prompt('여백의 개수를 입력하세요.')) //2
+    var void_area = parseInt(prompt('여백한칸의 넓이를 입력하세요.')) //50 * 2
+    var grid_num = void_num + 1 // 2 + 1
+    var grid_area = (con_area - (void_area * void_num)) / grid_num //1000-(50*2)/3
+    alert('한개의 그리드의 넓이는 '+grid_area+'입니다.') 
+    */
+
+    var num1 = prompt('첫번째 수를 입력') //50
+    var num2 = prompt('첫번째 수를 입력') //100
+    var num3 = (num1 / num2) * 100 
+    alert(''+num1+'은 '+num2+'의 '+num3+'% 입니다.') //50은 100의 50% 입니다.
+  </script>
+</body>
+
+</html>
