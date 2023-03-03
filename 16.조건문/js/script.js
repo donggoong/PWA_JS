@@ -66,7 +66,7 @@ $(function () {
     e.preventDefault()
     var 숫자 = parseInt($(`.ex4 input`).val())
     var 결과
-    if (숫자) {
+    if (숫자 || 숫자 === 0) {
       if (숫자 === 1 || 숫자 === 5 || 숫자 === 10 || 숫자 === 25) {
         결과 = '정답'
       }
@@ -84,7 +84,7 @@ $(function () {
   $(`.ex5 button`).click(function () {
     var 숫자 = parseInt($(`.ex5 input`).val())
     var 결과
-    if (숫자) {
+    if (숫자 || 숫자 === 0) {
       if (숫자 % 2 === 0) {
         결과 = '짝수입니다.'
       }
