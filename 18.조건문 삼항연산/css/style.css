@@ -1,0 +1,9 @@
+.ex4 button .x{
+  display: none;
+}
+.ex4 button.active .x{
+  display: inline;
+}
+.ex4 button.active .o{
+  display: none;
+}
