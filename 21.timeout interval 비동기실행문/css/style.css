@@ -1,0 +1,44 @@
+.ex8 {
+  width: 300px;
+  border: 1px solid black;
+  margin: 30px auto;
+}
+.ex8 div{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  background-color: red;
+  transition: left 1s;
+}
+
+.ex9 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  margin: 50px auto;
+}
+
+.ex9 img:not(.img1){
+  display: none;
+}
+
+.ex9 .indicator{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+.ex9 button{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  transform: translateX(-50px);
+  border: none;
+}
+.ex9 button:hover{
+  opacity: 1;
+}
+
+
