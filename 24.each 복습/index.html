@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+  <script src="./js/script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="ex1">
+    <p>1. 버튼을 클릭하면 박스색이 변해요.</p>
+    <div>
+      <p><button>버튼</button></p>
+      <div class="box" data-bg="red">빨강</div>
+      <div class="box" data-bg="blue">파랑</div>
+      <div class="box" data-bg="yellow">노랑</div>
+    </div>
+    <div>
+      <p><button>버튼</button></p>
+      <div class="box" data-bg="red">빨강</div>
+      <div class="box" data-bg="blue">파랑</div>
+      <div class="box" data-bg="yellow">노랑</div>
+    </div>
+  </section>
+  <hr>
+  <section class="ex2">
+    <p>2. 더하기 문제</p>
+    <div>
+      <span></span> +
+      <span></span> +
+      <span></span> +
+      <span></span> =
+      <input type="text" size="1">
+      <button>결과보기</button>
+    </div>
+    <p class="output">0</p>
+  </section>
+  <hr>
+  <section class="ex3">
+    <p>1. 해당하는 숫자를 고르세요</p>
+    <div>
+      <p>one</p>
+      <p class="radios">
+        <input type="radio" name="ex3_1" value="정답">1
+        <input type="radio" name="ex3_1">2
+        <input type="radio" name="ex3_1">3
+      </p>
+    </div>
+    <div>
+      <p>two</p>
+      <p class="radios">
+        <input type="radio" name="ex3_2">1
+        <input type="radio" name="ex3_2" value="정답">2
+        <input type="radio" name="ex3_2">3
+      </p>
+    </div>
+    <button class="btn1">결과보기</button>
+    <button class="btn2">초기화</button>
+    <p class="output">결과</p>
+  </section>
+  <hr>
+  <section class="ex4">
+    <p>4. 알파벳을 선택하세요</p>
+    <p>
+      <input value="x" type="checkbox">1
+      <input value="o" type="checkbox">a
+      <input value="x" type="checkbox">가
+      <input value="o" type="checkbox">z
+    </p>
+    <button>결과보기</button>
+    <p class="output">결과</p>
+  </section>
+  <hr>
+  <section class="ex5">
+    <p>5. 알파벳을 선택하세요</p>
+    <div>
+      <input value="x" type="checkbox">1
+      <input value="o" type="checkbox">a
+      <input value="x" type="checkbox">가
+      <input value="o" type="checkbox">z
+    </div>
+    <br>
+    <div>
+      <input value="o" type="checkbox">a
+      <input value="o" type="checkbox">a
+      <input value="x" type="checkbox">가
+      <input value="x" type="checkbox">나
+      <input value="x" type="checkbox">5
+    </div>
+    <br>
+    <div>
+      <input value="x" type="checkbox">!
+      <input value="x" type="checkbox">?
+      <input value="o" type="checkbox">z
+
+    </div>
+    <button class="btn1">점수보기(틀린문제빨강, 맞은문제파랑)</button>
+    <button class="btn2">초기화</button>
+    <p class="output">0</p>
+  </section>
+</body>
+
+</html>
